@@ -1,0 +1,35 @@
+{
+    "name": "koa-umi-mock",
+    "version": "1.0.0",
+    "description": "koa-umi-mock是参照umi-mock写的koa版本mock中间件,在koa项目中快速实现类umi-mock的mock数据请求.",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xifanii/koa-umi-mock.git"
+    },
+    "keywords": [
+        "koa",
+        "umi",
+        "mock",
+        "middleware"
+    ],
+    "author": "xifanii",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/xifanii/koa-umi-mock/issues"
+    },
+    "homepage": "https://github.com/xifanii/koa-umi-mock#readme",
+    "dependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.7.0",
+        "@babel/register": "^7.7.0",
+        "assert": "^2.0.0",
+        "babel-plugin-add-module-exports": "^1.0.2",
+        "chokidar": "^3.3.0",
+        "glob": "^7.1.6",
+        "koa-bodyparser": "^4.2.1",
+        "path-to-regexp": "^3.1.0"
+    }
+}
