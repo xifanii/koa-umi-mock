@@ -1,0 +1,12 @@
+{
+    "name": "mock-example",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "koa": "^1.4.0"
+    }
+}
