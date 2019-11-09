@@ -10,13 +10,13 @@ Mock 数据是前端开发过程中必不可少的一环，是分离前后端开
 
 ## Usage
 
-1、引用 mock 中间件
+1、安装依赖
 
 ```bash
 npm i koa-umi-mock --save
 ```
 
-1、引用 mock 中间件
+2、引用 mock 中间件
 
 ```
 var app = require('koa')();
@@ -31,7 +31,7 @@ app.listen(port, () => {
 
 ```
 
-2、创建 mock 文件夹并添加 mock 文件
+3、创建 mock 文件夹并添加 mock 文件
 
 ```
 ├── app.js                  # koa入口
