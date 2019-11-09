@@ -1,6 +1,6 @@
 # koa-umi-mock
 
-参照 umi-mock 写的 koa 版本 mock 中间件,在 koa 项目中快速实现类 umi-mock 的 mock 数据请求.
+参照 umi-mock 写的 koa2 版本 mock 中间件,在 koa 项目中快速实现类 umi-mock 的 mock 数据请求.
 
 使用文档参考自（将 express 相关写法换成 koa）：https://umijs.org/zh/guide/mock-data.html
 
@@ -9,6 +9,12 @@
 Mock 数据是前端开发过程中必不可少的一环，是分离前后端开发的关键链路。通过预先跟服务器端约定好的接口，模拟请求数据甚至逻辑，能够让前端开发独立自主，不会被服务端的开发所阻塞。
 
 ## Usage
+
+1、引用 mock 中间件
+
+```bash
+npm i koa-umi-mock --save
+```
 
 1、引用 mock 中间件
 
@@ -57,7 +63,7 @@ export default {
     }
   },
 
-  // 支持自定义函数，API 参考 koa
+  // 支持自定义函数，API 参考 koa2
   'POST /api/users/create': ctx => {
     const { param1, param2 } = ctx.request.body;
     ctx.body = {

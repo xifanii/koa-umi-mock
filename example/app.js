@@ -1,5 +1,7 @@
-var app = require('koa')();
-var mockMiddleware = require('koa-umi-mock');
+var Koa = require('koa');
+var mockMiddleware = require('../index');
+var path = require('path');
+var app = new Koa();
 
 app.use(function* (next) {
   var start = new Date;
